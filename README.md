@@ -5,9 +5,6 @@ Welcome to my personal website!
 ## 🌍 Live Demo
 Check out the live version: [lukekirwan.io](https://lukekirwan.io)
 
-## 🙏 Recognition
-This website was designed by [Soumyajit Behera](https://github.com/soumyajit4419) and the repository forked from [soumyajit4419/Portfolio](https://github.com/soumyajit4419/Portfolio), then customised and deployed by me. Thanks [Soumyajit](https://github.com/soumyajit4419)!
-
 ## 🚀 Features
 - **About Me** – Learn more about my background and experience.
 - **Projects** – A collection of my work and contributions.
@@ -46,6 +43,9 @@ This website was designed by [Soumyajit Behera](https://github.com/soumyajit4419
 4. Open your browser and visit `http://localhost:3000`
 
 ## 📬 Contact
-Feel free to reach out via [luke.kirwan22@gmail.com](mailto:luke.kirwan22@gmail.com) or connect with me on [LinkedIn](www.linkedin.com/in/luke-kirwan).
+Feel free to reach out via [luke.kirwan22@gmail.com](mailto:luke.kirwan22@gmail.com) or connect with me on [LinkedIn](https://linkedin.com/in/luke-kirwan).
+
+## 🙏 Recognition
+The website was designed by [Soumyajit Behera](https://github.com/soumyajit4419) and the repository forked from [soumyajit4419/Portfolio](https://github.com/soumyajit4419/Portfolio), then customised and deployed by me. Thanks [Soumyajit](https://github.com/soumyajit4419)!
 
 ---
