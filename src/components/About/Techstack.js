@@ -33,8 +33,15 @@ import {
   SiAwslambda,
   SiMicrosoftazure,
   SiKubernetes,
+  SiPrettier,
 } from "react-icons/si";
-import { TbBrandAzure, TbBrandGolang, TbLambda, TbSql } from "react-icons/tb";
+import {
+  TbBrandAzure,
+  TbBrandGolang,
+  TbBrandOauth,
+  TbLambda,
+  TbSql,
+} from "react-icons/tb";
 
 function Techstack() {
   return (
