@@ -5,11 +5,14 @@ import { Row } from "react-bootstrap";
 function Github() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-      <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
-        Days I <strong className="purple">Code</strong>
+      <h1 className="project-heading" style={{ paddingBottom: "5px" }}>
+        Github <strong className="purple">Contributions</strong>
       </h1>
+      <p style={{ paddingBottom: "20px" }}>
+        I've been busy on my professional Github account 👀
+      </p>
       <GitHubCalendar
-        username="soumyajit4419"
+        username="thelk22"
         blockSize={15}
         blockMargin={5}
         color="#c084f5"
