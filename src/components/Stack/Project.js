@@ -1,35 +1,34 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import {
-  SiVisualstudiocode,
-  SiPostman,
-  SiSlack,
-  SiVercel,
-  SiMacos,
-  SiGit,
-  SiDocker,
-} from "react-icons/si";
+import { DiNodejs, DiNpm, DiReact } from "react-icons/di";
+import { SiJavascript, SiVercel } from "react-icons/si";
 
-function Toolstack() {
+function Project() {
   return (
-    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+    <Row
+      style={{
+        justifyContent: "center",
+        paddingBottom: "50px",
+        color: "white",
+      }}
+    >
       <Col xs={4} md={2} className="tech-icons">
-        <SiMacos />
+        <SiJavascript />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
+        <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiGit />
+        <DiNodejs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
+        <DiNpm />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiDocker />
+        <SiVercel />
       </Col>
     </Row>
   );
 }
 
-export default Toolstack;
+export default Project;

@@ -1,9 +1,10 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
-import Type from "./Type";
+import Project from "../Stack/Project";
 import Contact from "./Contact";
+import Type from "./Type";
 
 function Home() {
   return (
@@ -41,7 +42,13 @@ function Home() {
           </Row>
         </Container>
       </Container>
-      <Contact />
+      <Container className="home-about-section" id="about">
+        <h1 className="project-heading">
+          I <strong className="purple">built </strong> this website with
+        </h1>
+        <Project />
+        <Contact />
+      </Container>
     </section>
   );
 }

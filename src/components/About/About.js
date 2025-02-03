@@ -1,11 +1,11 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import Particle from "../Particle";
-import Github from "./Github";
-import Techstack from "./Techstack";
-import Toolstack from "./Toolstack";
+import { Col, Container, Row } from "react-bootstrap";
 import Tilt from "react-parallax-tilt";
 import myImg from "../../Assets/avatar.svg";
+import Particle from "../Particle";
+import Skills from "../Stack/Skills";
+import Tools from "../Stack/Tools";
+import Github from "./Github";
 
 function About() {
   return (
@@ -47,12 +47,12 @@ function About() {
           Professional <strong className="purple">Skillset </strong>
         </h1>
 
-        <Techstack />
+        <Skills />
 
         <h1 className="project-heading">
           <strong className="purple">Tools</strong> I use
         </h1>
-        <Toolstack />
+        <Tools />
 
         <Github />
       </Container>

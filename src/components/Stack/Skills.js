@@ -1,52 +1,22 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
-import {
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiMongodb,
-  DiPython,
-  DiGit,
-  DiJava,
-  DiDjango,
-  DiPostgresql,
-  DiAws,
-  DiHtml5,
-  DiDocker,
-} from "react-icons/di";
+import { DiDjango, DiJava, DiNodejs, DiPython, DiReact } from "react-icons/di";
 import { FaAws } from "react-icons/fa";
 import {
-  SiTypescript,
   SiExpress,
-  SiRedis,
-  SiFirebase,
-  SiNextdotjs,
-  SiSolidity,
-  SiPostgresql,
   SiJavascript,
-  SiSpringboot,
-  SiAzurefunctions,
-  SiHtml5,
-  SiSqlite,
-  SiDocker,
-  SiAwslambda,
-  SiMicrosoftazure,
   SiKubernetes,
-  SiPrettier,
+  SiMicrosoftazure,
+  SiPostgresql,
+  SiRedis,
+  SiSpringboot,
+  SiTypescript,
 } from "react-icons/si";
-import {
-  TbBrandAzure,
-  TbBrandGolang,
-  TbBrandOauth,
-  TbLambda,
-  TbSql,
-} from "react-icons/tb";
+import { TbSql } from "react-icons/tb";
 
-function Techstack() {
+function Skills() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      {/* Languages */}
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
       </Col>
@@ -96,4 +66,4 @@ function Techstack() {
   );
 }
 
-export default Techstack;
+export default Skills;
