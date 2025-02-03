@@ -4,7 +4,7 @@ Welcome to my personal website!
 
 ## 🌍 Live Demo
 
-Check out the live version: [lukekirwan.io](https://lukekirwan.io)
+Check out the live version: [lukekirwan.me](https://www.lukekirwan.me)
 
 ## 🚀 Features
 
