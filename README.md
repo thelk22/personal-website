@@ -6,17 +6,10 @@ Welcome to my personal website!
 
 Check out the live version: [lukekirwan.me](https://www.lukekirwan.me)
 
-## 🚀 Features
-
-- **About Me** – Learn more about my background and experience.
-- **Projects** – A collection of my work and contributions.
-- **Blog** – Thoughts, tutorials, and insights on technology and design.
-- **Contact** – Get in touch with me.
-
 ## 🛠️ Tech Stack
 
 - **Frontend**: [React](https://reactjs.org/)
-- **Deployment**: [Vercel](https://vercel.com/)
+- **Hosting**: [Vercel](https://vercel.com/)
 - **Developer Tools** [VS Code](https://code.visualstudio.com/) / [Node.js](https://nodejs.org/) / [npm](https://www.npmjs.com/) / [Prettier](https://prettier.io/)
 
 ## 📂 Structure
@@ -53,6 +46,6 @@ Feel free to reach out via [luke.kirwan22@gmail.com](mailto:luke.kirwan22@gmail.
 
 ## 🙏 Recognition
 
-The website was designed by [Soumyajit Behera](https://github.com/soumyajit4419) and the repository forked from [soumyajit4419/Portfolio](https://github.com/soumyajit4419/Portfolio), then customised and deployed by me. Thanks [Soumyajit](https://github.com/soumyajit4419)!
+The website was designed by [Soumyajit Behera](https://github.com/soumyajit4419) and the repository forked from [soumyajit4419/Portfolio](https://github.com/soumyajit4419/Portfolio), then customised and deployed by me. Thank you [Soumyajit](https://github.com/soumyajit4419)!
 
 ---
