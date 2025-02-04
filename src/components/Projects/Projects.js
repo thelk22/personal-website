@@ -13,7 +13,6 @@ function Projects() {
                 <h1 className="project-heading">
                     My Recent <strong className="purple">Projects </strong>
                 </h1>
-                <p style={{ color: 'white' }}>Feature coming soon.</p>
                 <Row
                     style={{ justifyContent: 'center', paddingBottom: '10px' }}
                 >
