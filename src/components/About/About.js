@@ -32,7 +32,7 @@ function About() {
                             problems.
                             <br />
                             <br />
-                            ⚙️ &nbsp;&nbsp; My favourite tech stack is
+                            🛠️ &nbsp;&nbsp; My favourite tech stack is
                             <i>
                                 <b className="purple">
                                     {' '}
