@@ -243,7 +243,6 @@ button:focus {
     }
 }
 #tsparticles {
-    position: fixed !important;
     background-repeat: no-repeat !important;
     background-size: cover !important;
     width: 100%;
@@ -403,9 +402,9 @@ button:focus {
 /* --------- */
 .footer {
     background-color: rgb(10, 4, 22);
-    bottom: 0 !important;
+    margin-top: auto;
     padding-top: 10px !important;
-    padding-bottom: 8px !important ;
+    padding-bottom: 8px !important;
 }
 .footer-copywright {
     text-align: center !important;
@@ -603,10 +602,13 @@ button:focus {
 /* --------- */
 
 .resume-section {
-    position: relative !important;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
     padding-top: 110px !important;
     padding-bottom: 30px !important;
-    background-image: var(--section-background-color) !important;
+    /* background-image: var(--section-background-color) !important; */
     color: white !important;
 }
 

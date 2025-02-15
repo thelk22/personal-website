@@ -1,7 +1,7 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import Tilt from 'react-parallax-tilt'
-import myImg from '../../Assets/avatar.svg'
+import headshot from '../../Assets/headshot.png'
 import Particle from '../Particle'
 import Skills from '../Stack/Skills'
 import Tools from '../Stack/Tools'
@@ -45,7 +45,7 @@ function About() {
                     <Col md={4} className="myAvtar">
                         <Tilt>
                             <img
-                                src={myImg}
+                                src={headshot}
                                 className="img-fluid"
                                 alt="avatar"
                             />

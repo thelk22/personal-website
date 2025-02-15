@@ -10,19 +10,26 @@ function ProjectCards(props) {
             <Card.Img variant="top" src={props.imgPath} alt="card-img" />
             <Card.Body>
                 <Card.Title>{props.title}</Card.Title>
-                <Card.Text style={{ textAlign: 'justify' }}>
-                    {props.description}
-                </Card.Text>
-                <Button variant="primary" href={props.ghLink} target="_blank">
-                    <BsGithub /> &nbsp;
-                    {props.isBlog ? 'Blog' : 'GitHub'}
-                </Button>
+                <Card.Text>{props.description}</Card.Text>
                 {'\n'}
                 {'\n'}
 
-                {/* If the component contains Demo link and if it's not a Blog then, it will render the below component  */}
+                {props.ghLinks &&
+                    props.ghLinks.map((link, index) => {
+                        return (
+                            <Button
+                                variant="primary"
+                                href={link}
+                                target="_blank"
+                                style={{ marginLeft: '10px' }}
+                            >
+                                <BsGithub /> &nbsp;
+                                {index > 0 ? `GitHub ${index + 1}` : 'Github'}
+                            </Button>
+                        )
+                    })}
 
-                {!props.isBlog && !props.demoLink && props.pdf && (
+                {props.pdf && (
                     <Button
                         variant="primary"
                         href={props.pdf}
@@ -34,7 +41,7 @@ function ProjectCards(props) {
                     </Button>
                 )}
 
-                {!props.isBlog && !props.pdf && props.demoLink && (
+                {props.demoLink && (
                     <Button
                         variant="primary"
                         href={props.demoLink}
